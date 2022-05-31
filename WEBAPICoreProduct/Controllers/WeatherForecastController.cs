@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WEBAPICoreProduct.Controllers
 {
-    [ApiController]
+    [ApiController]    //Attribute- Define Behaviour 
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
